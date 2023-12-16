@@ -12,3 +12,5 @@ External sources:
 * Stack Overflow - https://stackoverflow.com/questions/17296643/hover-not-working-in-span/17296762#17296762
 * ChatGPT - General questions
 * Cocktail pictures has been generated with - DALLE - https://www.bing.com/images/create?FORM=GENILP
+
+The code has passed all Jigsaw and W3School validator perfectly.
