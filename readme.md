@@ -14,3 +14,6 @@ External sources:
 * Cocktail pictures has been generated with - DALLE - https://www.bing.com/images/create?FORM=GENILP
 
 The code has passed all Jigsaw and W3School validator perfectly.
+
+Bugs: 
+    Moved all HTML files in the main directory because live link could not launch the "index.html" from sub directory.
