@@ -1,0 +1,367 @@
+/* Fix Header customisation */
+.header {
+    text-align: right;
+    justify-content:right;
+    opacity: 90%;
+}
+.logo {
+    max-width: 100px;
+     
+}
+/* GENERAL FONT STYLE */
+.general_font_style {
+    color:rgb(255, 255, 255);
+    font-family: menufont;
+}
+
+#main {
+  margin: 0px 20px 0px 20px;
+}
+
+.general_font_style_shadowed {
+    color:rgb(255, 255, 255);
+    font-family: menufont;
+    filter: brightness(110%);
+    -webkit-text-stroke: 1px rgba(79, 39, 39, 0.456); 
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    text-shadow: 
+    1px -1px 30px #000,
+    -1px 1px 30px brown,
+    1px 1px 30px #b38383;
+}
+
+
+/* Fix Navigation customisation */
+.navigation {
+    position: relative;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    max-width: 70%; 
+    min-width: 20%; 
+    margin: 0 auto; 
+  }
+  .navigation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../media/wooden_background.jpeg'); 
+    background-size: cover;
+    opacity: 80%; 
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+  
+  .nav-button {
+    color:rgb(255, 255, 255);
+    font-family: menufont;
+    font-size: 2.2vw;
+    filter: brightness(90%);
+    -webkit-text-stroke: 1px rgba(79, 39, 39, 0.456); 
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+  }
+
+  .nav-button span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+
+  .banner_card span {
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    width: 100%;
+
+  }
+
+  .button-image {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  
+
+/* Font properties (align , size , color) */
+.center_allign_fontprops{
+    text-align: center;
+}
+/* CSS image links ,Backgrounds etc. */
+
+#menu_section_fontprops::before {
+    content: "";
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -10;
+    display:block;
+
+    background-image: url('https://i.imgur.com/It9425X.jpg'); 
+    background-size:cover; 
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(1px);
+    filter: brightness(50%);
+    
+}
+.menu_section_contentspecs {
+    color:rgb(255, 255, 255);
+    font-family: menufont;
+    filter: brightness(105%);
+    -webkit-text-stroke: 1px rgba(79, 39, 39, 0.456); 
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    text-shadow: 
+    1px -1px 30px #000,
+    -1px 1px 30px brown,
+    1px 1px 30px #b38383;
+}
+.menu_word_style {
+    font-size:70px;
+}
+#menu_underline_id {
+    text-decoration: underline;
+}
+
+.banner_card {
+        position: relative;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto -50px;
+        display: flex; 
+        justify-content: center;    
+}
+.banner_card img {
+
+    width: 90%;
+    height: 200px;
+    display: block;
+    object-fit: fill;
+    }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 20px;
+}
+
+/* Fix Footer customisation */
+footer {
+    background-color: #39281c;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+  /* HOMEPAGE */
+
+#welcome-section {
+    text-align: center;
+    padding: 20px;
+}
+.main_background {
+    content: "";
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -10;
+    display:block;
+
+}
+.main_background_size {
+    background-size:cover; 
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(1px);
+    filter: brightness(50%);
+}
+.wiki_link_hightlight {
+    color: rgb(251, 0, 0);
+    text-decoration: none; 
+}
+.wiki_link_hightlight:hover {
+    color: rgb(135, 94, 94);
+}
+
+/* REGISTER FORM */
+
+.register_starter_p {
+    font-family: menufont;
+    color: #fff;
+    text-align: center;
+}
+
+.register_main_display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: menufont; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .register_container {
+    background-color: #6c5252a2;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .register_h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+  }
+  
+  input[type="email"], select, input[type="text"], textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  textarea::placeholder,
+  input[type="email"]::placeholder,
+  input[type="text"]::placeholder {
+    color: #999;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  .success_message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .register_submit_button {
+    font-family: menufont;
+  }
+
+  /* GAMING SECTION */
+
+  .gaming_section_font {
+    font-family: menufont;
+    color: #fff;
+  }
+  .gaming_picture_size {
+    width: 600px;
+    height: 600px;
+  }
+
+  /* @settings */
+
+@font-face {
+    font-family: menufont;
+    src:url(jackofgears.ttf)
+}
+
+
+@media only screen and (min-width: 1000px) {
+  body {
+    font-size: 20px;
+  }
+  
+  footer {
+    font-size: 1vw;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+    .navigation .nav-button {
+      font-size: 3vw; 
+    }
+    li {
+        font-size: 3.8vw;
+    }
+
+    .banner_text {
+        font-size: 5vw; 
+    }
+
+    footer {
+      font-size: 2vw;
+    }
+    .gaming_picture_size {
+      width: 400px;
+      height: 400px;
+    }
+
+  }
+
+@media only screen and (max-width: 599px) {
+    .navigation {
+        display: block;
+        font-size: 5vw; 
+    }
+    span {
+        font-size: 8vw;
+    }
+    body {
+        font-size: 4vw;
+    }
+    footer {
+      font-size: 2vw;
+    }
+    .gaming_picture_size {
+      width: 300px;
+      height: 300px;
+    }
+}
+
+.navigation a:hover span{
+  color:red;
+}
+
+.banner_card > .banner_text {
+  font-size: 4vw;
+}
